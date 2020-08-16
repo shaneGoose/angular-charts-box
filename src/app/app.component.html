@@ -1,0 +1,27 @@
+<div class="row">
+
+  <div class="col-1"></div>
+
+  <div class="col-10">
+
+    <button mat-raised-button (click)="changeChart(chart.RADAR)">radar</button>
+
+  </div>
+
+  <div class="col-1"></div>
+
+</div>
+
+<div *ngIf="chart.RADAR === focusChart" class="chart-container">
+
+  <div class="col-1"></div>
+
+  <div class="col-10">
+
+
+
+  </div>
+
+  <div class="col-1"></div>
+
+</div>
